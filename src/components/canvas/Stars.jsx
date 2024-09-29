@@ -9,7 +9,7 @@ const Stars = (props) => {
   const sphere =
   random.inSphere(new Float32Array(1000 * 3), { radius: 1.2 });
   useFrame((state, delta) => {
-    console.log(sphere.some(isNaN));
+    // console.log(sphere.some(isNaN));
     ref.current.rotation.x -= delta / 10;
     ref.current.rotation.y -= delta / 15;
   });
