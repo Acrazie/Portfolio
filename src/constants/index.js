@@ -28,6 +28,10 @@ import {
   sql,
   orli,
   markq,
+  Quizzyverse,
+  RottenTomatoes,
+  Reddit,
+  comingsoon,
 } from "../assets";
 
 export const navLinks = [
@@ -167,67 +171,103 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Quizzyverse",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Jeu de quizz, comme son nom l'indique, où l'on peut jouer à quelques jeux, réalisé durant la CodingAcademy à Epitech Paris",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "sql",
         color: "green-text-gradient",
       },
       {
         name: "tailwind",
         color: "pink-text-gradient",
       },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
       {
         name: "nextjs",
+        color: "black-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: Quizzyverse,
+    source_code_link: "https://github.com/Acrazie",
+  },
+  {
+    name: "Rotten Tomatoes",
+    description:
+      "Site de qui répertori les films, leurs affiches, et donne tout les informations nécessaire à l'utilisateur, que ce soit date de sortie, les acteurs, descriptions...",
+    tags: [
+      {
+        name: "typescript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "sql",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "nextjs",
+        color: "black-text-gradient",
+      },
+      {
+        name: "expressjs",
+        color: "blue-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: RottenTomatoes,
+    source_code_link: "https://github.com/Acrazie",
+  },
+  {
+    name: "RedditLike",
+    description:
+      "Ce projet est une application web inspirée de Reddit, développée en utilisant le framework Laravel pour le backend, Vue.js pour le frontend et MySQL pour les bases de données.",
+    tags: [
+      {
+        name: "laravel",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "vuejs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "php",
+        color: "pink-text-gradient",
+      },      {
+        name: "javascript",
+        color: "white-text-gradient",
+      },
+    ],
+    image: Reddit,
+    source_code_link: "https://github.com/Acrazie",
+  },
+  {
+    name: "More Coming Soon",
+    description:
+      "More coming soon.",
+    tags: [
+      {
+        name: "python",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "pygame",
+        color: "green-text-gradient",
+      },
+    ],
+    image: comingsoon,
+    source_code_link: "https://github.com/Acrazie",
   },
 ];
 

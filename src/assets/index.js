@@ -34,6 +34,10 @@ import markq from "./company/markq.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import Quizzyverse from './Quizzyverse.png';
+import RottenTomatoes from './RottenTomatoes.png';
+import Reddit from './Reddit.png';
+import comingsoon from './comingsoon.jpg'
 
 export {
   logo,
@@ -69,4 +73,8 @@ export {
   sql,
   orli,
   markq,
+  Quizzyverse,
+  RottenTomatoes,
+  Reddit,
+  comingsoon,
 };
