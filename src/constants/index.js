@@ -145,27 +145,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Mayeul est un garçon travailleur, pour lui trouver une alternance serait un accomplissement.",
+    name: "Maman",
+    designation: "Maman",
+    company: "Mayeul",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Tout pareil que maman 🤷‍♂️.",
+    name: "Papa",
+    designation: "Papa",
+    company: "Mayeul",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Si vous pensez que je suis une personne sérieux, travailleuse, marrante, déterminée, vous avez totalement raison 😁",
+    name: "Moi-même",
+    designation: "Etudiant",
+    company: "Epitech",
+    image: "/src/assets/logo.png",
   },
 ];
 
