@@ -35,6 +35,10 @@ import {
 } from "../assets";
 
 export const navLinks = [
+  // {
+  //   id: 'cv/Cv-Desbazeille-Mayeul.pdf',
+  //   title: 'CV',
+  // },
   {
     id: "about",
     title: "About",

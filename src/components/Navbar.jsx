@@ -4,6 +4,7 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
 import { nav } from "framer-motion/client";
+import { LineLoop } from "three";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -26,7 +27,11 @@ const Navbar = () => {
             Mayeul&nbsp; <span className="sm:block hidden">| Desbazeille</span>
           </p>
         </Link>
-        <ul className="list-none hidden sm:flex flex-row gap-10">
+        <ul className="list-none hidden sm:flex flex-row sm:gap-4 md:gap-8 lg:gap-12">
+            <li className="
+              hover:text-white text-secondary hover:scale-150 hover:rotate-180 transition duration-500 text-[18px] font-medium cursor-pointer">
+              <a href="../../public/cv/Cv-Desbazeille-Mayeul.pdf" download>CV</a>
+            </li>
           {navLinks.map((link) => (
             <li
               key={link.id}
