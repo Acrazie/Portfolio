@@ -34,10 +34,12 @@ import markq from "./company/markq.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-import Quizzyverse from './Quizzyverse.png';
-import RottenTomatoes from './RottenTomatoes.png';
-import Reddit from './Reddit.png';
-import comingsoon from './comingsoon.jpg'
+import Quizzyverse from "./Quizzyverse.png";
+import RottenTomatoes from "./RottenTomatoes.png";
+import Reddit from "./Reddit.png";
+import comingsoon from "./comingsoon.jpg";
+import FlappyBird from "./FlappyBird.png";
+import WeatherApp from "./WeatherApp.png";
 
 export {
   logo,
@@ -77,4 +79,6 @@ export {
   RottenTomatoes,
   Reddit,
   comingsoon,
+  FlappyBird,
+  WeatherApp,
 };

@@ -32,6 +32,8 @@ import {
   RottenTomatoes,
   Reddit,
   comingsoon,
+  FlappyBird,
+  WeatherApp,
 } from "../assets";
 
 export const navLinks = [
@@ -128,11 +130,11 @@ const experiences = [
     date: "Mai 2023 - Juillet 2023",
     points: [
       "J’étais le responsable du développement web de la start-up",
-      "J’ai effectué du SEO, campagne marketing, récupération de data via des outils de gestion tel GA, Semrush."
+      "J’ai effectué du SEO, campagne marketing, récupération de data via des outils de gestion tel GA, Semrush.",
     ],
   },
   {
-    title: "Alternance de reve",
+    title: "Alternance de rève",
     company_name: "?",
     icon: markq,
     iconBg: "#E6DEDD",
@@ -156,8 +158,7 @@ const testimonials = [
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
-    testimonial:
-      "Tout pareil que maman 🤷‍♂️.",
+    testimonial: "Tout pareil que maman 🤷‍♂️.",
     name: "Papa",
     designation: "Papa",
     company: "Mayeul",
@@ -201,7 +202,7 @@ const projects = [
       },
     ],
     image: Quizzyverse,
-    source_code_link: "https://github.com/Acrazie",
+    source_code_link: "https://github.com/Acrazie/Quizzyverse",
   },
   {
     name: "Rotten Tomatoes",
@@ -248,7 +249,8 @@ const projects = [
       {
         name: "php",
         color: "pink-text-gradient",
-      },      {
+      },
+      {
         name: "javascript",
         color: "white-text-gradient",
       },
@@ -257,9 +259,46 @@ const projects = [
     source_code_link: "https://github.com/Acrazie",
   },
   {
-    name: "More Coming Soon",
+    name: "FlappyBird",
     description:
-      "More coming soon.",
+      "Le projet de réplique de jeu mobile en Java m'a permis de comprendre l'orienté objet Java.",
+    tags: [
+      {
+        name: "java",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: FlappyBird,
+    source_code_link: "https://github.com/Acrazie/Java2D-Game",
+  },
+  {
+    name: "Weather-App",
+    description:
+      "L'idée de ce projet m'est venu du fait que les applications météos étaient soit trop anciennes, soit pas assez précises, et du fait que je voulais utiliser les APis de Google.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "white-text-gradient",
+      },
+    ],
+    image: WeatherApp,
+    source_code_link: "https://github.com/Acrazie/Weather-App",
+  },
+  {
+    name: "More Coming Soon",
+    description: "More coming soon.",
     tags: [
       {
         name: "python",
