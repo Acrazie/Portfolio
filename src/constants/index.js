@@ -34,6 +34,7 @@ import {
   comingsoon,
   FlappyBird,
   WeatherApp,
+  logo,
 } from "../assets";
 
 export const navLinks = [
@@ -170,7 +171,7 @@ const testimonials = [
     name: "Moi-même",
     designation: "Etudiant",
     company: "Epitech",
-    image: "../assets/logo.png",
+    image: logo,
   },
 ];
 
