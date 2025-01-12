@@ -41,7 +41,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Passionné depuis peu, l'univers du développement est l'endroit de tout
+        Passionné depuis peu, l'univers du développement est l'endroit de tous
         les possibles ! Touche à tout, j'ai eu un coup de coeur pour React, plus
         précisément NextJs. Si vous êtes une entreprise qui cherche un alternant
         comme moi, n'hésitez pas 🥸 !

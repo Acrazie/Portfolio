@@ -130,11 +130,11 @@ const experiences = [
     date: "Mai 2023 - Juillet 2023",
     points: [
       "J’étais le responsable du développement web de la start-up",
-      "J’ai effectué du SEO, campagne marketing, récupération de data via des outils de gestion tel GA, Semrush.",
+      "J’ai effectué du SEO, campagne marketing, récupération de data via des outils de gestion tels GA, Semrush.",
     ],
   },
   {
-    title: "Alternance de rève",
+    title: "Alternance de rêve",
     company_name: "?",
     icon: markq,
     iconBg: "#E6DEDD",
@@ -166,11 +166,11 @@ const testimonials = [
   },
   {
     testimonial:
-      "Si vous pensez que je suis une personne sérieux, travailleuse, marrante, déterminée, vous avez totalement raison 😁",
+      "Si vous pensez que je suis une personne sérieuse, travailleuse, marrante, déterminée, vous avez totalement raison 😁",
     name: "Moi-même",
     designation: "Etudiant",
     company: "Epitech",
-    image: "/src/assets/logo.png",
+    image: "../assets/logo.png",
   },
 ];
 
@@ -178,7 +178,7 @@ const projects = [
   {
     name: "Quizzyverse",
     description:
-      "Jeu de quizz, comme son nom l'indique, où l'on peut jouer à quelques jeux, réalisé durant la CodingAcademy à Epitech Paris",
+      "Jeu de quiz, comme son nom l'indique, où l'on peut jouer à quelques jeux, réalisé durant la CodingAcademy à Epitech Paris",
     tags: [
       {
         name: "react",
@@ -207,7 +207,7 @@ const projects = [
   {
     name: "Rotten Tomatoes",
     description:
-      "Site de qui répertori les films, leurs affiches, et donne tout les informations nécessaire à l'utilisateur, que ce soit date de sortie, les acteurs, descriptions...",
+      "Site qui répertorie les films, leurs affiches, et donne toutes les informations nécessaires à l'utilisateur, que ce soit la date de sortie, les acteurs, les descriptions...",
     tags: [
       {
         name: "typescript",
@@ -274,7 +274,7 @@ const projects = [
   {
     name: "Weather-App",
     description:
-      "L'idée de ce projet m'est venu du fait que les applications météos étaient soit trop anciennes, soit pas assez précises, et du fait que je voulais utiliser les APis de Google.",
+      "L'idée de ce projet m'est venue du fait que les applications météo étaient soit trop anciennes, soit pas assez précises, et du fait que je voulais utiliser les APis de Google.",
     tags: [
       {
         name: "nextjs",
