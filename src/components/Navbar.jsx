@@ -30,7 +30,7 @@ const Navbar = () => {
         <ul className="list-none hidden sm:flex flex-row sm:gap-4 md:gap-8 lg:gap-12">
             <li className="
               hover:text-white text-secondary hover:scale-150 hover:rotate-180 transition duration-500 text-[18px] font-medium cursor-pointer">
-              <a href="/cv/CV-Desbazeille-Mayeul-2024.pdf" download>CV</a>
+              <a href="/cv/CV-Desbazeille-Mayeul-2025.pdf" download>CV</a>
             </li>
           {navLinks.map((link) => (
             <li
