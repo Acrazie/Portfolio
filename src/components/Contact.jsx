@@ -25,6 +25,10 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
+    console.log(form.name);
+    console.log(form.email);
+    console.log(form.message);
+
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
@@ -33,7 +37,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Mayeul",
           from_email: form.email,
-          to_email: "mayeul1.desbazeille@epitech.eu",
+          to_email: "mayeul.desbazeille@gmail.com",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
