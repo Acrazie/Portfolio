@@ -19,7 +19,6 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
   jobit,
   tripguide,
   threejs,
@@ -35,6 +34,9 @@ import {
   FlappyBird,
   WeatherApp,
   logo,
+  weeki,
+  decathlon,
+  epitech
 } from "../assets";
 
 export const navLinks = [
@@ -124,10 +126,20 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Assistant chef de rayon",
+    company_name: "Decathlon",
+    icon: decathlon,
+    iconBg: "#E6DEDD",
+    date: "Juillet 2023 - Août 2023",
+    points: [
+      "En tant qu'Assistant du Chef de Rayon, j'étais responsable d'assister le chef de rayon dans la gestion quotidienne du rayon et de ses équipes.",
+    ],
+  },
+  {
     title: "Responsable développement web",
     company_name: "Orli",
     icon: orli,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "Mai 2023 - Juillet 2023",
     points: [
       "J’étais le responsable du développement web de la start-up",
@@ -135,16 +147,25 @@ const experiences = [
     ],
   },
   {
-    title: "Alternance de rêve",
-    company_name: "?",
-    icon: markq,
+    title: "Accompagnateur Pédagogique - Epitech x ISEGCOM",
+    company_name: "Epitech x ISEGCOM",
+    icon: epitech,
     iconBg: "#E6DEDD",
-    date: "Jan 2025 - ?",
+    date: "Mai 2023 - Juillet 2023",
     points: [
-      "Développer et maintenir des applications web en utilisant React.js et d'autres technologies connexes.",
-      "Collaborer avec des équipes interfonctionnelles comprenant des designers, des chefs de produit et d'autres développeurs pour créer des produits de haute qualité.",
+      "En tant qu’assistant pédagogique, j’ai accompagné les étudiants de l’ISEGCOM Lille dans l’apprentissage des bases du développement d’un site e-commerce.",
+    ],
+  },
+  {
+    title: "Weeki.io - Développeur Fullstack",
+    company_name: "Weeki",
+    icon: weeki,
+    iconBg: "#E6DEDD",
+    date: "Février 2025 - now",
+    points: [
+      "Développer et maintenir un SaSS utilisant React.js et Symfony.",
       "Mettre en œuvre un design réactif et garantir la compatibilité entre les navigateurs.",
-      "Participer à des revues de code et fournir des retours constructifs à d'autres développeurs.",
+      "Outils: React.js, Symfony, PostgreSQL, Docker, AWS S3, Elastic Search.",
     ],
   },
 ];
@@ -152,7 +173,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Mayeul est un garçon travailleur, pour lui trouver une alternance serait un accomplissement.",
+      "Mayeul est un garçon travailleur, donner lui ticket, il vous le fait en un temps record !",
     name: "Maman",
     designation: "Maman",
     company: "Mayeul",

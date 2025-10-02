@@ -30,6 +30,9 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import orli from "./company/orli.png";
 import markq from "./company/markq.png";
+import weeki from "./company/weeki.svg";
+import decathlon from "./company/decathlon.svg";
+import epitech from "./company/epitech.svg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -81,4 +84,7 @@ export {
   comingsoon,
   FlappyBird,
   WeatherApp,
+  weeki,
+  decathlon,
+  epitech
 };

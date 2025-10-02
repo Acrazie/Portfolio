@@ -43,8 +43,7 @@ const About = () => {
       >
         Passionné depuis peu, l'univers du développement est l'endroit de tous
         les possibles ! Touche à tout, j'ai eu un coup de coeur pour React, plus
-        précisément NextJs. Si vous êtes une entreprise qui cherche un alternant
-        comme moi, n'hésitez pas 🥸 !
+        précisément NextJs !
       </motion.p>
 
       <div className="mt-24 flex flex-wrap justify-center gap-10">

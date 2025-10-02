@@ -25,10 +25,6 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    console.log(form.name);
-    console.log(form.email);
-    console.log(form.message);
-
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,

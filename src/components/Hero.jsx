@@ -17,9 +17,9 @@ const Hero = () => {
             Salut ! Moi c'est <span className="text-[#915eff]">Mayeul</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Je suis un junior développeur web en Pre-Msc à Epitech Lille{" "}
+            Je suis alternant développeur fullStack chez Weeki {" "}
             <br className="sm:block hidden" />
-            et actuellement en recherche d'alternance !
+            et actuellement en Msc 1 à Epitech Lille !
           </p>
         </div>
       </div>
